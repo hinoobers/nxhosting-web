@@ -1,4 +1,4 @@
-const API_URL = "https://api.example.com/api/";
+const API_URL = "http://server2.hinoob.xyz:5080/status";
 
 function fetchAPI(endpoint, method) {
     console.log("test");
