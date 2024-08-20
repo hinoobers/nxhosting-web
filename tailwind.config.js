@@ -1,5 +1,5 @@
 module.exports = {
-  darkMode: true,
+  darkMode: "class",
   content: [
     './build/*.html',
   ],
