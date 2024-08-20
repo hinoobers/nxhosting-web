@@ -1,5 +1,10 @@
 body {
     background-color: rgb(39, 37, 37);
+    padding: 0;
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+    color: white; /* Text color, since background is black */
 }
 
 .top-bar {
@@ -22,4 +27,24 @@ body {
     color: white;
     width: 4rem;
     height: 2rem;
+}
+
+.container {
+    display: flex;      
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;   
+    width: fit-content; 
+    height: auto;       
+    background-color: rgb(2,2,2); 
+    text-align: center;   
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    background-color: black;
+    text-align: center;
 }
